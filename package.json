@@ -1,0 +1,12 @@
+{
+  "name": "image-resizer",
+  "version": "1.0.0",
+  "description": "This project provides a simple Node.js script to resize images and ensure they are square, filling empty spaces with a transparent background if needed. The script uses the `sharp` library to handle image processing and supports various image formats including JPEG, PNG, WebP, AVIF, TIFF, and GIF.",
+  "main": "resizeImage.js",
+  "scripts": {
+    "start": "node resizeImage.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.4"
+  }
+}
